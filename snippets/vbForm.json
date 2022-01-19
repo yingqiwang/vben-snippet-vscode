@@ -1,0 +1,43 @@
+{
+  "vbForm": {
+    "prefix": "vbform",
+    "body": [
+      "<BasicForm",
+      ":schemas=\"schemas\"",
+      "ref=\"formElRef\"",
+      ":labelWidth=\"100\"",
+      "@submit=\"handleSubmit\"",
+      ":actionColOptions=\"{ span: 24 }\"",
+      "/>"
+    ],
+    "description": "BasicForm"
+  },
+  "vbImport": {
+    "prefix": "importform",
+    "body": [
+      "//BasicForm",
+      "import { BasicForm, FormSchema, ApiSelect } from '/@/components/Form/index';"
+    ],
+    "description": "引入 BasicForm"
+  },
+  "vbFormSchema": {
+    "prefix": "fschema",
+    "body": [
+      "{",
+      "\tfield: '$1',",
+      "\tcomponent: 'Input',",
+      "\tlabel: '$2',",
+      "\tcolProps: {",
+      "\t\tspan: 8,",
+      "\t},",
+      "\tcomponentProps: {",
+      "\t\tplaceholder: '自定义placeholder',",
+      "\t\tonChange: (e: any) => {",
+      "\t\t\tconsole.log(e);",
+      "\t\t},",
+      "\t},",
+      "},"
+    ],
+    "description": "Form schema "
+  }
+}

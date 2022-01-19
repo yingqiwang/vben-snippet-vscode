@@ -1,0 +1,53 @@
+{
+  "name": "vben-snippet",
+  "description": "vben代码辅助,代码片段自动完成",
+  "version": "0.1.0",
+  "publisher": "王英琦",
+  "engines": {
+    "vscode": "^1.63.2"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "vben",
+    "ant design vue",
+    "vite vue3 ts"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vue",
+        "extensions": [
+          ".vue"
+        ]
+      },
+      {
+        "id": "json",
+        "extensions": [
+          ".json"
+        ]
+      },
+      {
+        "id": "ts",
+        "extensions": [
+          ".ts"
+        ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "vue, ts, json",
+        "path": "./snippets/vbForm.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yingqiwang/vben-snippet-vscode.git"
+  },
+  "bugs": {
+    "email": "wangyingqi2012@163.com"
+  },
+  "license": "MIT License"
+}
