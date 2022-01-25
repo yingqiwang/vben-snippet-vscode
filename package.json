@@ -2,7 +2,7 @@
   "name": "vben-snippet",
   "description": "vben代码辅助,代码片段自动完成",
   "version": "0.1.0",
-  "publisher": "王英琦",
+  "publisher": "wangyingqi",
   "engines": {
     "vscode": "^1.63.2"
   },
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "id": "ts",
+        "id": "typescript",
         "extensions": [
           ".ts"
         ]
@@ -37,17 +37,34 @@
     ],
     "snippets": [
       {
-        "language": "vue, ts, json",
+        "language": "javascript",
+        "path": "./snippets/vbForm.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vbForm.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vbForm.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vbTable.json"
+      },
+      {
+        "language": "html",
         "path": "./snippets/vbForm.json"
       }
     ]
   },
+  "icon": "./assets/image/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/yingqiwang/vben-snippet-vscode.git"
   },
   "bugs": {
-    "email": "wangyingqi2012@163.com"
+    "email": "echolaotou@gmail.com"
   },
   "license": "MIT License"
 }
