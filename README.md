@@ -3,4 +3,4 @@
 
 ## Table快捷预览
 
-![Table快捷预览](./assets/image/vbtable.gif)
+![Table快捷预览](./assets/image/vb-table.gif)

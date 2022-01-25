@@ -1,70 +1,71 @@
 {
-  "name": "vben-snippet",
-  "description": "vben代码辅助,代码片段自动完成",
-  "version": "0.1.0",
-  "publisher": "wangyingqi",
-  "engines": {
-    "vscode": "^1.63.2"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "keywords": [
-    "vben",
-    "ant design vue",
-    "vite vue3 ts"
-  ],
-  "contributes": {
-    "languages": [
-      {
-        "id": "vue",
-        "extensions": [
-          ".vue"
-        ]
-      },
-      {
-        "id": "json",
-        "extensions": [
-          ".json"
-        ]
-      },
-      {
-        "id": "typescript",
-        "extensions": [
-          ".ts"
-        ]
-      }
+    "name": "vben-snippet",
+    "description": "vben代码辅助,代码片段自动完成",
+    "version": "0.1.0",
+    "publisher": "wangyingqi",
+    "engines": {
+      "vscode": "^1.63.0"
+    },
+    "categories": [
+      "Snippets"
     ],
-    "snippets": [
-      {
-        "language": "javascript",
-        "path": "./snippets/vbForm.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/vbForm.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/vbForm.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/vbTable.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/vbForm.json"
-      }
-    ]
-  },
-  "icon": "./assets/image/logo.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yingqiwang/vben-snippet-vscode.git"
-  },
-  "bugs": {
-    "email": "echolaotou@gmail.com"
-  },
-  "license": "MIT License"
-}
+    "keywords": [
+      "vben",
+      "ant design vue",
+      "vite vue3 ts"
+    ],
+    "contributes": {
+      "languages": [
+        {
+          "id": "vue",
+          "extensions": [
+            ".vue"
+          ]
+        },
+        {
+          "id": "json",
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "id": "typescript",
+          "extensions": [
+            ".ts"
+          ]
+        }
+      ],
+      "snippets": [
+        {
+          "language": "javascript",
+          "path": "./snippets/vbForm.json"
+        },
+        {
+          "language": "typescript",
+          "path": "./snippets/vbForm.json"
+        },
+        {
+          "language": "vue",
+          "path": "./snippets/vbForm.json"
+        },
+        {
+          "language": "vue",
+          "path": "./snippets/vbTable.json"
+        },
+        {
+          "language": "html",
+          "path": "./snippets/vbForm.json"
+        }
+      ]
+    },
+    "icon": "assets/image/logo.png",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yingqiwang/vben-snippet-vscode.git"
+    },
+    "bugs": {
+      "email": "echolaotou@gmail.com"
+    },
+    "license": "MIT License"
+  }
+  

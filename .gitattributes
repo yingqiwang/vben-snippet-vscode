@@ -1,4 +1,3 @@
-*.js linguist-language=javascript
-*.ts linguist-language=typescript
-*.vue linguist-language=html
+# Set default behavior to automatically normalize line endings.
+* text=auto
 
