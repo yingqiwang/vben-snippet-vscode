@@ -53,6 +53,10 @@
           "path": "./snippets/vbTable.json"
         },
         {
+          "language": "vue",
+          "path": "./snippets/vbModal.json"
+        },
+        {
           "language": "html",
           "path": "./snippets/vbForm.json"
         }
