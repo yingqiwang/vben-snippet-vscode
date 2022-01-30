@@ -23,7 +23,7 @@
     "prefix": "fschema",
     "body": [
       "{",
-      "  field: 'name',",
+      "  field: 'name$1',",
       "  label: 'demo',",
       "  required: true,",
       "  component: 'Input',",
