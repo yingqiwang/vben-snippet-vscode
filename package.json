@@ -1,10 +1,13 @@
 {
     "name": "vben-snippet",
     "description": "vben代码辅助,代码片段自动完成",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "wangyingqi",
     "engines": {
       "vscode": "^1.63.0"
+    },
+    "scripts": {
+      "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s" 
     },
     "categories": [
       "Snippets"
