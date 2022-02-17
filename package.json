@@ -7,6 +7,7 @@
       "vscode": "^1.63.0"
     },
     "scripts": {
+      "build": "vsce package",
       "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s" 
     },
     "categories": [
@@ -40,16 +41,20 @@
       ],
       "snippets": [
         {
+          "language": "vue",
+          "path": "./snippets/basicSnippet.json"
+        },
+        {
+          "language": "html",
+          "path": "./snippets/basicSnippet.json"
+        },
+        {
           "language": "javascript",
           "path": "./snippets/vbForm.json"
         },
         {
           "language": "typescript",
           "path": "./snippets/vbForm.json"
-        },
-        {
-          "language": "typescript",
-          "path": "./snippets/basicSnippet.json"
         },
         {
           "language": "vue",

@@ -1,38 +1,38 @@
 {
   "vbtnpri": {
-    "prefix": "",
+    "prefix": "vbtnpri",
     "body": ["<a-button type=\"primary\">$1</a-button>"],
-    "description": ""
+    "description": "ant design button primary"
   },
   "vbtnlink": {
-    "prefix": "",
+    "prefix": "vbtnlink",
     "body": ["<a-button type=\"link\" class=\"ml-2\"> $1</a-button>"],
-    "description": ""
+    "description": "ant design button link"
   },
   "vbtnghost": {
-    "prefix": "",
+    "prefix": "vbtnghost",
     "body": ["<a-button ghost type=\"default\" class=\"ml-2\"> $1</a-button>"],
-    "description": ""
+    "description": "ant design button"
   },
   "vbtndashed": {
-    "prefix": "",
+    "prefix": "vbtndashed",
     "body": ["<a-button type=\"dashed\" class=\"ml-2\"> $1</a-button>"],
-    "description": ""
+    "description": "ant design button"
   },
   "vbtndanger": {
-    "prefix": "",
+    "prefix": "vbtndanger",
     "body": ["<a-button danger type=\"default\" class=\"ml-2\"> $1</a-button>"],
-    "description": ""
+    "description": "ant design button"
   },
   "vbtnloading": {
-    "prefix": "",
+    "prefix": "vbtnloading",
     "body": ["<a-button loading type=\"primary\" class=\"ml-2\"> $1</a-button>"],
-    "description": ""
+    "description": "ant design button loading"
   },
   "vbtndisabled": {
-    "prefix": "",
+    "prefix": "vbtndisabled",
     "body": ["<a-button type=\"default\" disabled class=\"ml-2\"> $1</a-button>"],
-    "description": ""
+    "description": "ant design button disabled"
   }
   
 }
