@@ -1,0 +1,38 @@
+{
+  "vbtnpri": {
+    "prefix": "",
+    "body": ["<a-button type=\"primary\">$1</a-button>"],
+    "description": ""
+  },
+  "vbtnlink": {
+    "prefix": "",
+    "body": ["<a-button type=\"link\" class=\"ml-2\"> $1</a-button>"],
+    "description": ""
+  },
+  "vbtnghost": {
+    "prefix": "",
+    "body": ["<a-button ghost type=\"default\" class=\"ml-2\"> $1</a-button>"],
+    "description": ""
+  },
+  "vbtndashed": {
+    "prefix": "",
+    "body": ["<a-button type=\"dashed\" class=\"ml-2\"> $1</a-button>"],
+    "description": ""
+  },
+  "vbtndanger": {
+    "prefix": "",
+    "body": ["<a-button danger type=\"default\" class=\"ml-2\"> $1</a-button>"],
+    "description": ""
+  },
+  "vbtnloading": {
+    "prefix": "",
+    "body": ["<a-button loading type=\"primary\" class=\"ml-2\"> $1</a-button>"],
+    "description": ""
+  },
+  "vbtndisabled": {
+    "prefix": "",
+    "body": ["<a-button type=\"default\" disabled class=\"ml-2\"> $1</a-button>"],
+    "description": ""
+  }
+  
+}

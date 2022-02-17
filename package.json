@@ -45,6 +45,10 @@
           "path": "./snippets/vbForm.json"
         },
         {
+          "language": "typescript",
+          "path": "./snippets/basicSnippet.json"
+        },
+        {
           "language": "vue",
           "path": "./snippets/vbForm.json"
         },
