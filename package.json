@@ -45,11 +45,11 @@
           "path": "./snippets/basicSnippet.json"
         },
         {
-          "language": "html",
+          "language": "vue-html",
           "path": "./snippets/basicSnippet.json"
         },
         {
-          "language": "javascript",
+          "language": "vue-html",
           "path": "./snippets/vbForm.json"
         },
         {
@@ -69,7 +69,7 @@
           "path": "./snippets/vbModal.json"
         },
         {
-          "language": "html",
+          "language": "vue-html",
           "path": "./snippets/vbForm.json"
         }
       ]
