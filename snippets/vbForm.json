@@ -19,8 +19,8 @@
     ],
     "description": "引入 BasicForm"
   },
-  "vbFormSchema": {
-    "prefix": "fschema",
+  "vbFormSingleSchema": {
+    "prefix": "vbfschema",
     "body": [
       "{",
       "  field: 'name$1',",
@@ -35,7 +35,7 @@
     "description": "Form schema"
   },
   "vbFormGetSchema": {
-    "prefix": "",
+    "prefix": "vbFormGetSchema",
     "body": [
       "import { FormSchema } from '/@/components/Form/index';",
       "const getSchamas = (): FormSchema[] => {",
