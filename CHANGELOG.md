@@ -1,3 +1,11 @@
+## [0.2.4](https://github.com/yingqiwang/vben-snippet-vscode/compare/0.2.3...0.2.4) (2022-02-25)
+
+
+### Bug Fixes
+
+* vbFormGetSchema lost prefix ([107eb5c](https://github.com/yingqiwang/vben-snippet-vscode/commit/107eb5cca4cb3c2663592f6cd41eeebfac1ef3aa))
+
+
 ## 0.2.2 (2022-02-17)
 * add basic btn
 
