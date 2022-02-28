@@ -102,5 +102,24 @@
       ""
     ],
     "description": "Table&Modal"
+  },
+  "vbcolumns": {
+    "prefix": "vbcolumns",
+    "body": [
+      "import { BasicColumn } from '/@/components/Table';",
+      "export const columns: BasicColumn[] = [",
+      "  {",
+      "    title: 'name',",
+      "    dataIndex: 'name',",
+      "    width: 90,",
+      "  },",
+      "  {",
+      "    title: 'age',",
+      "    dataIndex: 'age',",
+      "    width: 150,",
+      "  },",
+      "];"
+    ],
+    "description": "table columns"
   }
 }
