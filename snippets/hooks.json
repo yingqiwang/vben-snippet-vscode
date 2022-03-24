@@ -1,0 +1,7 @@
+{
+  "useECharts": {
+    "prefix": "useECharts",
+    "body": ["import { useECharts } from '/@/hooks/web/useECharts';"],
+    "description": "useECharts hooks"
+  }
+}

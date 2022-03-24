@@ -71,6 +71,10 @@
         {
           "language": "vue-html",
           "path": "./snippets/vbForm.json"
+        },
+        {
+          "language": "vue-html",
+          "path": "./snippets/hooks.json"
         }
       ]
     },
