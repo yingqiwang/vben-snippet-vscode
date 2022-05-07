@@ -1,5 +1,5 @@
-# vben-snippet-vscode
-* vben代码辅助,代码片段自动完成
+# vben-snippet-vscode <img src="https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/wangyingqi.vben-snippet?label=VSCode%20installs&style=plastic" alt="vben-snippet">
+vben代码辅助,代码片段自动完成
 
 ## e.g. table gif
 
