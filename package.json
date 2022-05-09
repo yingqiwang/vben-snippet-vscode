@@ -1,7 +1,7 @@
 {
     "name": "vben-snippet",
     "description": "vben代码辅助,代码片段自动完成",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "publisher": "wangyingqi",
     "engines": {
       "vscode": "^1.63.0"
@@ -62,6 +62,10 @@
         },
         {
           "language": "vue",
+          "path": "./snippets/vbTable.json"
+        },
+        {
+          "language": "vue-html",
           "path": "./snippets/vbTable.json"
         },
         {
