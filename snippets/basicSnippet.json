@@ -33,6 +33,20 @@
     "prefix": "vbtndisabled",
     "body": ["<a-button type=\"default\" disabled class=\"ml-2\"> $1</a-button>"],
     "description": "ant design button disabled"
+  },
+  "vbsetup": {
+    "prefix": "vbsetup",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "  import { watchEffect } from 'vue';",
+      "  const emit = defineEmits(['']);",
+      "  const props = defineProps({",
+      "  });",
+      "  watchEffect(() => {",
+      "    selectedKeys.value = [unref(getLocale)];",
+      "  });",
+      "</script>"
+    ],
+    "description": "vbsetup"
   }
-  
 }
