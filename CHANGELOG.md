@@ -1,3 +1,23 @@
+## [0.2.6](https://github.com/yingqiwang/vben-snippet-vscode/compare/0.2.3...0.2.6) (2022-08-20)
+
+
+### Bug Fixes
+
+* lost export in formSchema & tab indent ([e9e7a47](https://github.com/yingqiwang/vben-snippet-vscode/commit/e9e7a47599f06ad8462bec07eeaff7126d56f456))
+* vbFormGetSchema lost prefix ([107eb5c](https://github.com/yingqiwang/vben-snippet-vscode/commit/107eb5cca4cb3c2663592f6cd41eeebfac1ef3aa))
+* vue template 提示 ([4c29b9b](https://github.com/yingqiwang/vben-snippet-vscode/commit/4c29b9bb56244effdc9c44cda566c5681193303c))
+
+
+### Features
+
+* add BasicColumn for Table ([b1d441f](https://github.com/yingqiwang/vben-snippet-vscode/commit/b1d441fa936b306ebeef3e6ab87a799f73dbcb44))
+* emitsetup ([caa70c7](https://github.com/yingqiwang/vben-snippet-vscode/commit/caa70c7151d9d3d25f71038d027aff98f092523f))
+* init hooks snippets ([f6e306d](https://github.com/yingqiwang/vben-snippet-vscode/commit/f6e306dc2d99f0ffcca4bcd0ec4e3d6589dc221e))
+* setup语法糖 ([4592491](https://github.com/yingqiwang/vben-snippet-vscode/commit/4592491efabe17f1f7369c41d6561017b7ea8f2f))
+* vbsetup ([cbfa2f4](https://github.com/yingqiwang/vben-snippet-vscode/commit/cbfa2f4f38307a1a92c10cd8bd1030e936ea7246))
+
+
+
 ## [0.2.4](https://github.com/yingqiwang/vben-snippet-vscode/compare/0.2.3...0.2.4) (2022-02-25)
 
 
