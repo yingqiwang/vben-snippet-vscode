@@ -55,4 +55,12 @@
       "</script>"
     ],
     "description": "vbsetupTable"
-  }}
+  },
+  "emitsetup": {
+    "prefix": "",
+    "body": [
+      "const emit = defineEmits(['$1']);"
+    ],
+    "description": "emitforsetup"
+  }
+}
