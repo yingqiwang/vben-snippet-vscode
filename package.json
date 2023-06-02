@@ -1,7 +1,7 @@
 {
     "name": "vben-snippet",
     "description": "vben代码辅助,代码片段自动完成",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "publisher": "wangyingqi",
     "engines": {
       "vscode": "^1.63.0"
